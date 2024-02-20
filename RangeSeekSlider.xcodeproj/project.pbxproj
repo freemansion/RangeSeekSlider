@@ -8,12 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE00D96E1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00D96D1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift */; };
-		CE1967FE1E7668A300DBAE72 /* RangeSeekSlider.swift in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RangeSeekSlider.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE2FEE5A1E7A639C00D396B5 /* RangeSeekSliderDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = CE3D49B51E712B840071E992 /* RangeSeekSliderDelegate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3D49AF1E7121990071E992 /* RangeSeekSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RangeSeekSlider.framework */; };
 		CE3D49B01E7121990071E992 /* RangeSeekSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RangeSeekSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE3D49B61E712B840071E992 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3D49B51E712B840071E992 /* RangeSeekSliderDelegate.swift */; };
-		CEBD453C1E9A42E4001AF6DF /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD453B1E9A42E4001AF6DF /* TapticEngine.swift */; };
 		CED789241E75A57B00900B25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED789231E75A57B00900B25 /* CoreGraphics.framework */; };
 		CED789261E75A58100900B25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED789251E75A58100900B25 /* UIKit.framework */; };
 		CEF0136C1E72674F00DCF3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF273E41E7023F7003AA995 /* Assets.xcassets */; };
@@ -21,7 +17,12 @@
 		CEF273ED1E70241B003AA995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF273EA1E702405003AA995 /* Main.storyboard */; };
 		CEF273EE1E702421003AA995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF273E21E7023ED003AA995 /* AppDelegate.swift */; };
 		CEF273EF1E702424003AA995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF273E61E7023F7003AA995 /* ViewController.swift */; };
-		OBJ_21 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RangeSeekSlider.swift */; };
+		F62593BA2B84BED7001BF636 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B72B84BED7001BF636 /* TapticEngine.swift */; };
+		F62593BB2B84BED7001BF636 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B72B84BED7001BF636 /* TapticEngine.swift */; };
+		F62593BC2B84BED7001BF636 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B82B84BED7001BF636 /* RangeSeekSliderDelegate.swift */; };
+		F62593BD2B84BED7001BF636 /* RangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B82B84BED7001BF636 /* RangeSeekSliderDelegate.swift */; };
+		F62593BE2B84BED7001BF636 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B92B84BED7001BF636 /* RangeSeekSlider.swift */; };
+		F62593BF2B84BED7001BF636 /* RangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62593B92B84BED7001BF636 /* RangeSeekSlider.swift */; };
 		OBJ_28 /* RangeSeekSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* RangeSeekSliderTests.swift */; };
 		OBJ_30 /* RangeSeekSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* RangeSeekSlider.framework */; };
 /* End PBXBuildFile section */
@@ -59,10 +60,8 @@
 
 /* Begin PBXFileReference section */
 		CE00D96D1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomRangeSeekSlider.swift; path = Demo/RangeSeekSliderDemo/CustomRangeSeekSlider.swift; sourceTree = SOURCE_ROOT; };
-		CE3D49B51E712B840071E992 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
 		CE3D49B81E71409A0071E992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE9937551E70236800EA982A /* RangeSeekSliderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RangeSeekSliderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBD453B1E9A42E4001AF6DF /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
 		CED789231E75A57B00900B25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CED789251E75A58100900B25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEF273E21E7023ED003AA995 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Demo/RangeSeekSliderDemo/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -71,10 +70,12 @@
 		CEF273E61E7023F7003AA995 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Demo/RangeSeekSliderDemo/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		CEF273E91E702405003AA995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Demo/RangeSeekSliderDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		CEF273EB1E702405003AA995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Demo/RangeSeekSliderDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		F62593B72B84BED7001BF636 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapticEngine.swift; path = Sources/RangeSeekSlider/TapticEngine.swift; sourceTree = "<group>"; };
+		F62593B82B84BED7001BF636 /* RangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSeekSliderDelegate.swift; path = Sources/RangeSeekSlider/RangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		F62593B92B84BED7001BF636 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RangeSeekSlider.swift; path = Sources/RangeSeekSlider/RangeSeekSlider.swift; sourceTree = "<group>"; };
 		OBJ_12 /* RangeSeekSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSeekSliderTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* RangeSeekSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RangeSeekSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* RangeSeekSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RangeSeekSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_9 /* RangeSeekSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSeekSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +140,16 @@
 			path = RangeSeekSliderDemo;
 			sourceTree = "<group>";
 		};
+		F62593B62B84BECA001BF636 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F62593B92B84BED7001BF636 /* RangeSeekSlider.swift */,
+				F62593B82B84BED7001BF636 /* RangeSeekSliderDelegate.swift */,
+				F62593B72B84BED7001BF636 /* TapticEngine.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,32 +180,13 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_7 /* Sources */,
+				F62593B62B84BECA001BF636 /* Sources */,
 				OBJ_10 /* Tests */,
 				CEFF01CA1E701BB400C1C4F5 /* Demo */,
 				OBJ_13 /* Products */,
 				CE3D49B71E7140990071E992 /* Frameworks */,
 			);
 			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* RangeSeekSlider */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		OBJ_8 /* RangeSeekSlider */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* RangeSeekSlider.swift */,
-				CE3D49B51E712B840071E992 /* RangeSeekSliderDelegate.swift */,
-				CEBD453B1E9A42E4001AF6DF /* TapticEngine.swift */,
-			);
-			name = RangeSeekSlider;
-			path = Sources;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -203,8 +195,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1967FE1E7668A300DBAE72 /* RangeSeekSlider.swift in Headers */,
-				CE2FEE5A1E7A639C00D396B5 /* RangeSeekSliderDelegate.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +316,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF273EE1E702421003AA995 /* AppDelegate.swift in Sources */,
+				F62593BF2B84BED7001BF636 /* RangeSeekSlider.swift in Sources */,
+				F62593BB2B84BED7001BF636 /* TapticEngine.swift in Sources */,
 				CEF273EF1E702424003AA995 /* ViewController.swift in Sources */,
+				F62593BD2B84BED7001BF636 /* RangeSeekSliderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,9 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_21 /* RangeSeekSlider.swift in Sources */,
-				CEBD453C1E9A42E4001AF6DF /* TapticEngine.swift in Sources */,
-				CE3D49B61E712B840071E992 /* RangeSeekSliderDelegate.swift in Sources */,
+				F62593BE2B84BED7001BF636 /* RangeSeekSlider.swift in Sources */,
+				F62593BC2B84BED7001BF636 /* RangeSeekSliderDelegate.swift in Sources */,
+				F62593BA2B84BED7001BF636 /* TapticEngine.swift in Sources */,
 				CE00D96E1E7AA99A0032CA93 /* CustomRangeSeekSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +419,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/RangeSeekSliderDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shoji.RangeSeekSliderDemo;
@@ -473,6 +467,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/RangeSeekSliderDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shoji.RangeSeekSliderDemo;
